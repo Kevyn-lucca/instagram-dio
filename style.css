@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -77,14 +79,14 @@ body {
 }
 
 .instagram-login {
-    background-color: #0095f6;
+    background-color: #f64600;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: #f64600;
     margin-top: 1rem;
 }
 
@@ -93,7 +95,7 @@ body {
 }
 
 .link-blue {
-    color: #0095f6;
+    color: #f64600;
 }
 
 .get-the-app {
@@ -127,6 +129,22 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+.instagram-rapper h1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    background-image: url(/img/shopping.jpg);
+   border: solid grey;
+}
+
+.instagram-rapper h1 {
+
+ font-size: 35px;
+ color: red;
+ font-family: 'Oleo Script Swash Caps', cursive;
+}
 /* media queries */
 
 
